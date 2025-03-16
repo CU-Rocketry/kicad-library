@@ -1,0 +1,164 @@
+(footprint "HX-TS24CA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Hanxia HX-TS24CA SMD Tactile Switch")
+	(tags "Hanxia HX-TS24CA SMD Tactile Switch")
+	(property "Reference" "REF**"
+		(at 0 -13.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b97178b5-e7d4-4f04-933f-76082d27a7d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HX-TS24CA"
+		(at 0 -12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "03d34a6a-6500-413e-b7df-5a3748ec448b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208241730_hanxia-HX-TS24CA-160gf_C5143620.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7963c76c-bbb7-4e55-b7d1-46c0bc7d8bf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a63afbb6-fd83-44b3-8c1c-0b73802234b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 -0.6)
+		(end 2.3 -0.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "897cd940-ef6b-4b40-a939-c2edbf2ebe8b")
+	)
+	(fp_circle
+		(center -2.7 1.8)
+		(end -2.45 1.8)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3a398639-179a-403a-b062-a302bcf4ec2c")
+	)
+	(fp_rect
+		(start -2.9 -2)
+		(end 3 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "48f9901f-2223-42b0-9787-69dea6746117")
+	)
+	(fp_rect
+		(start -2.275 -0.6)
+		(end 2.275 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0e5dbc30-3b86-43c9-892a-72eac4be35d3")
+	)
+	(fp_rect
+		(start -0.95 -1.8)
+		(end 0.95 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9d181c67-6bcb-4973-82a8-3bd6b0aa59a8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82efffe8-f06e-4c38-a344-1d60dd4aa762")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at -2.3 0)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2f7d689-4732-4944-8a34-f5efd8fb2746")
+	)
+	(pad "" np_thru_hole circle
+		(at -0.85 0.3)
+		(size 0.8 0.8)
+		(drill 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c9875d41-37b1-4e13-9e78-ba44a03552bd")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.85 0.3)
+		(size 0.8 0.8)
+		(drill 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6fd62e06-6ef1-449a-a181-af65aeae8e34")
+	)
+	(pad "" smd rect
+		(at 2.3 0)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c5908005-0d47-43a0-830f-b7c3765fe6dd")
+	)
+	(pad "1" smd rect
+		(at -1.675 1.8)
+		(size 1.2 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e203914e-2a37-4830-b0b8-5d324d315c41")
+	)
+	(pad "2" smd rect
+		(at 1.675 1.8)
+		(size 1.2 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "954664ef-be5b-46b2-a7ed-203cce829db9")
+	)
+	(embedded_fonts no)
+)
