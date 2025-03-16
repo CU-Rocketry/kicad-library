@@ -1,18 +1,18 @@
 (footprint "EVQP7J01P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "EVQP7J")
 	(tags "Switch")
 	(property "Reference" "S**"
-		(at 0 0 0)
+		(at 0 -3.5 0)
 		(layer "F.SilkS")
 		(uuid "e8eba727-3e2e-44f0-8d45-47e704422593")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c33d2c27-c490-4dfe-a289-980460fc87bb")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -66,26 +54,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.7 -0.8)
-		(end -2.7 -0.8)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "08be7ade-ad04-456e-84f4-6df7c0b6d319")
-	)
-	(fp_line
-		(start -2.7 -0.6)
-		(end -2.7 -0.6)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "fd8a2bae-df21-480a-a209-bf2e5d694990")
-	)
-	(fp_line
 		(start -1.45 -1.45)
 		(end 2.1 -1.45)
 		(stroke
@@ -105,27 +73,16 @@
 		(layer "F.SilkS")
 		(uuid "ac862cca-e2fb-4999-acba-c775148b2d05")
 	)
-	(fp_arc
-		(start -2.7 -0.8)
-		(mid -2.6 -0.7)
-		(end -2.7 -0.6)
+	(fp_circle
+		(center -2.7 -0.7)
+		(end -2.45 -0.7)
 		(stroke
-			(width 0.2)
+			(width 0)
 			(type solid)
 		)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "82745d6c-918b-443b-abbe-dbdbdc5b2f98")
-	)
-	(fp_arc
-		(start -2.7 -0.6)
-		(mid -2.8 -0.7)
-		(end -2.7 -0.8)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "69896aae-0d7e-4326-9c08-ff1e8a02cc05")
+		(uuid "4195a4f1-d375-47b4-a5d3-dc22306231a7")
 	)
 	(fp_line
 		(start -3.8 -2.45)
@@ -214,48 +171,49 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c09a3b5e-aca8-4ad1-8093-5f92d34754e3")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 3.5 0)
 		(layer "F.Fab")
 		(uuid "1601b9b7-cd7a-4448-838b-b9a275bf3e7d")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(pad "1" smd rect
 		(at -1.5 -0.725 90)
 		(size 1.05 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a7bb6566-21ee-4c12-b10d-4e73152600e9")
 	)
-	(pad "2" smd rect
+	(pad "1" smd rect
 		(at 2.1 -0.725 90)
 		(size 1.05 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "23346a88-0480-4949-8bc1-886655f44cb9")
 	)
-	(pad "3" smd rect
+	(pad "2" smd rect
 		(at -1.5 0.725 90)
 		(size 1.05 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7a6f306e-6ed7-4d6c-88cb-442fb60031b8")
 	)
-	(pad "4" smd rect
+	(pad "2" smd rect
 		(at 2.1 0.725 90)
 		(size 1.05 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "60dfb59b-dd85-498a-abb8-fd2554806d53")
 	)
-	(model "C:\\Users\\Sigmond\\Documents\\KiCad\\Libraries\\SamacSys_Parts.3dshapes\\EVQ-P7A01P.stp"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad-library-sigmondkukla/3d_models/EVQ-P7A01P.stp"
 		(offset
-			(xyz 0.5099999828 -0.07999999701 1.21000002)
+			(xyz 0.51 -0.08 1.21)
 		)
 		(scale
 			(xyz 1 1 1)
