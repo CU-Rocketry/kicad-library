@@ -1,4 +1,4 @@
-(footprint "ESP32C3MINI1H4"
+(footprint "ESP32-C3-MINI-1-H4"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -713,18 +713,7 @@
 		(uuid "828fc441-5a7d-4c9f-849f-9ae47ed697e0")
 	)
 	(embedded_fonts no)
-	(model "ESP32-C3-MINI-1-H4.stp"
-		(offset
-			(xyz 0 2.700000007 0.4)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/libraries/ESP32-C3-MINI-1-H4/ESP32-C3-MINI-1-H4.STEP"
+	(model "${KIPRJMOD}/kicad-library-sigmondkukla/3d_models/ESP32-C3-MINI-1-H4.STEP"
 		(offset
 			(xyz 0 2.7 0)
 		)
