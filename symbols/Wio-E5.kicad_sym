@@ -7,19 +7,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -9.144 1.27 0)
+			(at -12.7 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Wio-E5"
-			(at -9.144 1.27 0)
+			(at -12.7 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Wio-E5:Wio-E5"
