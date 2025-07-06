@@ -40,7 +40,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 500mA 5-SSOP"
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 500mA 5-SSOP LDO 3.3V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Linear Voltage Regulator IC LDO Rohm 500mA 5-SSOP 3.3V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -68,10 +77,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_out line
 				(at -8.89 -3.81 0)
 				(length 2.54)
-				(name "STDBY"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -104,10 +113,10 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin input line
 				(at 8.89 -1.27 180)
 				(length 2.54)
-				(name "VOUT"
+				(name "STDBY"
 					(effects
 						(font
 							(size 1.27 1.27)
