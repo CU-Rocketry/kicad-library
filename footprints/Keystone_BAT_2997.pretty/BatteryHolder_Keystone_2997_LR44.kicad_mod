@@ -1,0 +1,231 @@
+(footprint "BatteryHolder_Keystone_2997_LR44"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.5 0)
+		(layer "F.SilkS")
+		(uuid "eadb28ba-2cf3-431e-977e-c35d7e07c28e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT_2997"
+		(at 0 6.5 0)
+		(layer "F.Fab")
+		(uuid "5704d4f9-f837-4835-8221-a4f50175c2f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8218de98-2592-455b-881b-26467a9b6b65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f657a9a-cfd4-4da3-9e86-1a974077342b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.605 -6.73)
+		(end 6.605 -6.73)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7f816fd-7e4e-40ac-ba3e-29c9543aa7b3")
+	)
+	(fp_line
+		(start -6.605 -1.8425)
+		(end -6.605 -6.73)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73cc5758-aaac-4ead-a244-4d1fe31d957b")
+	)
+	(fp_line
+		(start -6.605 5.34)
+		(end -6.605 1.8425)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a403da75-d019-44ee-a073-6e46c882cf94")
+	)
+	(fp_line
+		(start 6.605 -6.73)
+		(end 6.605 -1.8425)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11b17f79-e29e-44e0-8a2d-c974446d6b14")
+	)
+	(fp_line
+		(start 6.605 5.34)
+		(end -6.605 5.34)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8de62615-ab3a-41e3-a80d-30612c55cb79")
+	)
+	(fp_line
+		(start 6.605 5.34)
+		(end 6.605 1.8425)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc82eb32-8f31-47db-9ba2-1da06e3ff5d9")
+	)
+	(fp_line
+		(start -8.2425 -6.98)
+		(end -8.2425 5.59)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d60ab638-832d-4da1-8074-79cd5503c608")
+	)
+	(fp_line
+		(start -8.2425 5.59)
+		(end 8.2425 5.59)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4849b8e-6d3d-4cde-967f-71d8a627f705")
+	)
+	(fp_line
+		(start 8.2425 -6.98)
+		(end -8.2425 -6.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c34bd149-8c3b-4770-b713-2b6b832f25fb")
+	)
+	(fp_line
+		(start 8.2425 5.59)
+		(end 8.2425 -6.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "566b688c-5bd1-453b-bd14-28ae4a838d26")
+	)
+	(fp_line
+		(start -6.605 -6.73)
+		(end 6.605 -6.73)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e62a64c-4456-4a8e-b283-eabf7f32059f")
+	)
+	(fp_line
+		(start -6.605 5.34)
+		(end -6.605 -6.73)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66cc9b52-1b58-4bb7-b4e9-36413b7ed2c1")
+	)
+	(fp_line
+		(start 6.605 -6.73)
+		(end 6.605 5.34)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8697039-a393-480c-a4ab-2e3ac9b7a769")
+	)
+	(fp_line
+		(start 6.605 5.34)
+		(end -6.605 5.34)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96e485df-15db-4bfd-b488-b02c1e7608c5")
+	)
+	(pad "1" thru_hole circle
+		(at -6.605 0)
+		(size 2.775 2.775)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7f85f17b-1eaa-4c21-98f8-e4de69d74d29")
+	)
+	(pad "1" thru_hole circle
+		(at 6.605 0)
+		(size 2.775 2.775)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ae885e61-b7a5-4696-a87b-6808808cf168")
+	)
+	(pad "2" smd circle
+		(at 0 0)
+		(size 8 8)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.102)
+		(thermal_bridge_angle 90)
+		(uuid "82fb399c-dc79-463d-b132-10914f2ac544")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad-library-sigmondkukla/3d_models/Keystone_BAT_2997.step"
+		(offset
+			(xyz 0 6.25 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

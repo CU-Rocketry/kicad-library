@@ -2,27 +2,27 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "BU33SD5"
+	(symbol "SSD1306_OLED"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 3.302 0)
+			(at -7.366 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BU33SD5"
-			(at 0 1.27 0)
+		(property "Value" "SSD1306_OLED"
+			(at -13.716 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "BUxxSD5:SSOP5_ROM"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=BU33SD5WG&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 500mA 5-SSOP LDO 3.3V"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -49,95 +49,11 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Linear Voltage Regulator IC LDO Rohm 500mA 5-SSOP 3.3V"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "BU33SD5_0_0"
-			(pin power_in line
-				(at -8.89 -1.27 0)
+		(symbol "SSD1306_OLED_0_0"
+			(pin bidirectional line
+				(at -8.89 -5.08 0)
 				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -8.89 -3.81 0)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 8.89 -1.27 180)
-				(length 2.54)
-				(name "STDBY"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "BU33SD5_1_0"
-			(pin no_connect line
-				(at 5.08 -12.7 90)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -152,11 +68,65 @@
 					)
 				)
 			)
+			(pin input line
+				(at -8.89 -7.62 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 2.54 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
-		(symbol "BU33SD5_1_1"
+		(symbol "SSD1306_OLED_1_1"
 			(rectangle
 				(start -6.35 0)
-				(end 6.35 -10.16)
+				(end 6.35 -12.7)
 				(stroke
 					(width 0)
 					(type solid)

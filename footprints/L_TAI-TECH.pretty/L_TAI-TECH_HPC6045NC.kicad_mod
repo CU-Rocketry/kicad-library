@@ -1,0 +1,141 @@
+(footprint "L_TAI-TECH_HPC6045NC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Shielded wirewound inductor 2424 (6060 metric)")
+	(tags "TAI-TECH HPC Shielded wirewound inductor 2424 (6060 metric)")
+	(property "Reference" "REF**"
+		(at 0 -5.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ae124990-396a-41dd-947a-872fe17928e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_TAI-TECH_HPC6045NC"
+		(at -0.1 -6.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8749cc6c-b5fd-40cf-a75a-2e3b1a92b5c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5016/HPC-BM_NF_NCv.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d135062a-736c-43ff-b4fe-dea9814fb235")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Shielded wirewound inductor 2424 (6060 metric)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55be912c-1bd1-4170-8e39-fc5ac3155849")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.2 -1.1)
+		(end -3.2 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "193047d4-cbb1-4abb-af0e-a876d28ccf95")
+	)
+	(fp_line
+		(start 3.2 -1.1)
+		(end 3.2 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4153c2a6-348f-4c4d-a23c-4a763adc9ad2")
+	)
+	(fp_rect
+		(start -4 -4)
+		(end 4 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "e45a4c51-1b42-4629-a9b8-16381a2c33ec")
+	)
+	(fp_rect
+		(start -4 -4)
+		(end 4 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "35fb4db6-36bf-4862-8315-ee9927787ea0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 -5.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0d93e9c0-08c8-44a3-b7f2-e5daede4bd70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -2.2)
+		(size 6.5 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "1c08b003-cea4-47aa-aaa0-267fdfa4e0a3")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.2)
+		(size 6.5 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "d104c545-5f56-4e6c-925a-7ae91cf40876")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Sigmond/AppData/Local/Programs/KiCad/9.0/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_APV_ANR6045.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
