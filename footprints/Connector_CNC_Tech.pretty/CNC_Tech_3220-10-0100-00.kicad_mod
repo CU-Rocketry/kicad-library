@@ -1,4 +1,4 @@
-(footprint "CONN_3220-10-0100-00_CNC"
+(footprint "CNC_Tech_3220-10-0100-00"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "CONN_3220-10-0100-00_CNC"
+	(property "Value" "CNC_Tech_3220-10-0100-00"
 		(at 2.54 -4 0)
 		(unlocked yes)
 		(layer "F.Fab")
