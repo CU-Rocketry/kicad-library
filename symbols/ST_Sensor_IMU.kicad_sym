@@ -150,7 +150,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -21.59 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -168,7 +168,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -21.59 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -205,7 +205,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 -21.59 90)
+				(at 7.62 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -224,7 +224,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 -21.59 90)
+				(at 7.62 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -243,7 +243,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 -21.59 90)
+				(at 7.62 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -283,7 +283,7 @@
 		(symbol "IIS2MDC_1_1"
 			(rectangle
 				(start -10.16 0)
-				(end 10.16 -19.05)
+				(end 10.16 -20.32)
 				(stroke
 					(width 0)
 					(type solid)
