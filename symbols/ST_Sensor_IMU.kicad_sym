@@ -60,42 +60,6 @@
 		)
 		(symbol "IIS2MDC_0_0"
 			(pin unspecified line
-				(at -12.7 -2.54 0)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -5.08 0)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "CS"
@@ -106,24 +70,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -12.7 -12.7 0)
-				(length 2.54)
-				(name "INT/DRDY"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -150,7 +96,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -22.86 90)
+				(at 0 -20.32 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -168,7 +114,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -22.86 90)
+				(at 0 -20.32 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -205,7 +151,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 -22.86 90)
+				(at 7.62 -20.32 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -224,7 +170,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 -22.86 90)
+				(at 7.62 -20.32 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -243,7 +189,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 -22.86 90)
+				(at 7.62 -20.32 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -254,6 +200,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -10.16 180)
+				(length 2.54)
+				(name "INT/DRDY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -280,10 +244,51 @@
 				)
 			)
 		)
+		(symbol "IIS2MDC_1_0"
+			(pin input line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPC" input line)
+			)
+			(pin bidirectional line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SDI" input line)
+				(alternate "SDO" output line)
+			)
+		)
 		(symbol "IIS2MDC_1_1"
 			(rectangle
 				(start -10.16 0)
-				(end 10.16 -20.32)
+				(end 10.16 -17.78)
 				(stroke
 					(width 0)
 					(type solid)
@@ -363,60 +368,6 @@
 					)
 				)
 				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 -5.08 0)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 -7.62 0)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 -10.16 0)
-				(length 2.54)
-				(name "SDO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -589,6 +540,66 @@
 					)
 				)
 			)
+		)
+		(symbol "LSM6DSV80X_1_0"
+			(pin input line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPC" input line)
+			)
+			(pin bidirectional line
+				(at -12.7 -7.62 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SDI" input line)
+				(alternate "SDO" output line)
+			)
+			(pin output line
+				(at -12.7 -10.16 0)
+				(length 2.54)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "TA0" output line)
+			)
 			(pin output line
 				(at 12.7 -12.7 180)
 				(length 2.54)
@@ -606,6 +617,7 @@
 						)
 					)
 				)
+				(alternate "CDRDY" output line)
 			)
 		)
 		(symbol "LSM6DSV80X_1_1"
