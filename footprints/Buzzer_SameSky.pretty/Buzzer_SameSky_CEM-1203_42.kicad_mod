@@ -1,0 +1,141 @@
+(footprint "Buzzer_SameSky_CEM-1203_42"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Magnetic Buzzer Transducer 3V rated 3-5V operating voltage 95 dB")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(layer "F.SilkS")
+		(uuid "89560c1e-7052-4652-a2ef-e47f2b27ea35")
+		(effects
+			(font
+				(size 1.001346 1.001346)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CEM-1203(42)"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "eeadced4-1285-4b24-9f31-da6d8e9573d7")
+		(effects
+			(font
+				(size 1.003331 1.003331)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.sameskydevices.com/product/resource/cem-1203-42-.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b4d1c8c-6c82-43c5-a1f2-fbfd04f41e66")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Magnetic Buzzer Transducer 3V rated 3-5V operating voltage 95 dB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dc82128-6879-4eaf-9343-c79f97d57c13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dc347a98-2b4f-4202-831e-89381bb51305")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c5a2b023-7586-486d-b65d-512a8f774764")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fc2411be-e451-4421-a4f4-9a74853d72a8")
+	)
+	(fp_text user "+"
+		(at -5 0 0)
+		(layer "F.SilkS")
+		(uuid "1ab1ce06-edb0-4501-b9ae-61e7f3dbdbf1")
+		(effects
+			(font
+				(size 1.002 1.002)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 5 0 0)
+		(layer "F.SilkS")
+		(uuid "e89f4c99-c32f-4e50-a3b1-85d04f880876")
+		(effects
+			(font
+				(size 1.001567 1.001567)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -3.25 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(solder_mask_margin 0.102)
+		(thermal_bridge_angle 45)
+		(uuid "2b8cceb7-d541-409f-ba39-b006783413a5")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b7c4830d-667d-47d9-b574-9bbff2af2983")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad-library/3d_models/Buzzer_SameSky_CEM-1203_42.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
