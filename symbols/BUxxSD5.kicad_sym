@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "BUxxSD5:SSOP5_ROM"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.rohm.com/datasheet?p=BU33SD5WG&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
-			(at 0 0 0)
+			(at 0 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 500mA 5-SSOP LDO 3.3V"
-			(at 0 0 0)
+			(at 0 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,17 +77,17 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin input line
 				(at -8.89 -3.81 0)
 				(length 2.54)
-				(name "VOUT"
+				(name "STDBY"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -113,17 +113,17 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_out line
 				(at 8.89 -1.27 180)
 				(length 2.54)
-				(name "STDBY"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
