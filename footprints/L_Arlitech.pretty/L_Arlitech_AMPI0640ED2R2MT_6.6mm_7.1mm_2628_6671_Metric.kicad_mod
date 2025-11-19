@@ -1,0 +1,129 @@
+(footprint "L_Arlitech_AMPI0640ED2R2MT_6.6mm_7.1mm_2628_6671_Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "L_Arlitech_AMPI0640ED2R2MT_6.6mm_7.1mm_2628_6671_Metric")
+	(property "Reference" "REF**"
+		(at -12.5 -23 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ea241a60-2692-4f63-8aeb-c25742c54130")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_Arlitech_AMPI0640ED2R2MT"
+		(at -12.5 -21.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "33918571-5e6c-44da-9a91-69aa645cbffc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6380/AMPI0640ED2R2MT.pdf"
+		(at -12.5 -22.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4846f85f-a64a-4d5f-8126-375d982de519")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "L_Arlitech_AMPI0640ED2R2MT_6.6mm_7.1mm_2628_6671_Metric"
+		(at -12.5 -22.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80eb5bc3-12ca-40df-a2d6-3feede92d83f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dfb3028d-355c-49ad-857c-761ec111816d")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6062fd6d-83bc-478d-8962-e750e8af77cb")
+	)
+	(fp_rect
+		(start -4 -5)
+		(end 4 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "001ee325-f898-4fe8-ac5b-bc34e9f6606e")
+	)
+	(fp_rect
+		(start -3.3 -3.55)
+		(end 3.3 3.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7f34d4ff-2292-4e8e-95a6-0e6739642b04")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -12.5 -20 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e8e6c193-bfc3-4172-9698-36efd3c67a41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -3.025)
+		(size 3.5 2.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "c98e709b-5773-4e70-976b-82b1913728d9")
+	)
+	(pad "2" smd roundrect
+		(at 0 3.025)
+		(size 3.5 2.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "72687f0e-8680-47f7-92ed-9c10638a91db")
+	)
+	(embedded_fonts no)
+)
