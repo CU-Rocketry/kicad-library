@@ -1,0 +1,91 @@
+(footprint "TestPoint_Chip_RCUCTE_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC")
+	(tags "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "edb627f3-e30b-4183-b6ed-35b1205bcdd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RCUCTE"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "df2ddf80-dad2-41d3-8d77-7e87035acfcc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92252331-4ee4-4bff-bfd4-8b8d78e00b6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0b1fa47-6a3d-4975-a16f-5f4c59e3242c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.25 -0.75)
+		(end 1.25 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "beb988a1-05e9-4f18-b2b7-d14859b3de62")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "372671fb-908c-43bf-8089-8cdb78a87f36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "97112d82-11e7-4beb-a925-ce8844fdeb87")
+	)
+	(embedded_fonts no)
+)
