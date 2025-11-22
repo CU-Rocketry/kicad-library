@@ -233,7 +233,7 @@
 		(uuid "cfd782b8-aaa8-4f29-addb-beb831ab4f71")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-library-sigmondkukla/3d_models/PTS815SJM250SMTRLFS.stp"
+	(model "${KIPRJMOD}/kicad-library/3d_models/PTS815SJM250SMTRLFS.stp"
 		(offset
 			(xyz 0 0 0)
 		)
