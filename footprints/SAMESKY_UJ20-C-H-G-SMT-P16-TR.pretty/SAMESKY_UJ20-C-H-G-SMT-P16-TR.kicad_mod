@@ -352,7 +352,7 @@
 		(uuid "cab5f904-a9d0-4da6-a3d0-8f42cf9f74ba")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-library-sigmondkukla/3d_models/UJ20-C-H-G-SMT-P16-TR.step"
+	(model "${KIPRJMOD}/kicad-library/3d_models/UJ20-C-H-G-SMT-P16-TR.step"
 		(offset
 			(xyz 0 1 1.7)
 		)
