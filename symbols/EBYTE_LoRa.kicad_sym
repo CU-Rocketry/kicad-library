@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EBYTE_LoRa:EBYTE_LoRa_E22-400M30S"
 			(at 0 0 0)
 			(effects
 				(font
