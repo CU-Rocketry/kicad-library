@@ -340,4 +340,15 @@
 		(uuid "d98a7156-5fc9-4ff0-817e-d30714c3085c")
 	)
 	(embedded_fonts no)
+	(model "D:/Github/kicad-library/3d_models/UJ20-C-H-G-SMT-5-P16-TR.step"
+		(offset
+			(xyz 0 -3.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
