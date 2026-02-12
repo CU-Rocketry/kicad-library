@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "XDCR_CMT-7525-03-SMT-TR"
-		(at 10.38 5.86 0)
+	(property "Value" "XDCR_CMT-7525-03"
+		(at 0 5.5 0)
 		(layer "F.Fab")
 		(uuid "2c3dedb0-2a9c-453b-9b7d-aaf731fae248")
 		(effects
@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.sameskydevices.com/product/resource/cmt-7525-03-smt-tr.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -37,7 +37,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "SameSky_smd_buzzer_magnetic"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -240,7 +240,14 @@
 		(layer "F.Fab")
 		(uuid "4a48918c-1d30-457d-a06c-58982e7f0c89")
 	)
-	(pad "N" smd rect
+	(pad "1" smd rect
+		(at -3.075 -3.075)
+		(size 1.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "620d7c0e-462e-4e0a-8383-62c31eb39f7d")
+	)
+	(pad "2" smd rect
 		(at -3.075 3.075)
 		(size 1.8 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -261,12 +268,16 @@
 		(solder_mask_margin 0)
 		(uuid "784be33e-84e2-4358-aea9-517679495fc2")
 	)
-	(pad "P" smd rect
-		(at -3.075 -3.075)
-		(size 1.8 1.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0)
-		(uuid "620d7c0e-462e-4e0a-8383-62c31eb39f7d")
-	)
 	(embedded_fonts no)
+	(model "D:/Github/kicad-library/3d_models/Buzzer_CMT-7525-03-SMT-TR.step"
+		(offset
+			(xyz -3.75 -3.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
