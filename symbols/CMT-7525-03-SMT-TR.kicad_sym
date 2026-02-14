@@ -246,17 +246,19 @@
 					(justify left bottom)
 				)
 			)
+		)
+		(symbol "CMT-7525-03-SMT-TR_1_0"
 			(pin passive line
-				(at -2.54 -5.08 90)
+				(at -2.54 5.08 270)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "N"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -264,19 +266,17 @@
 					)
 				)
 			)
-		)
-		(symbol "CMT-7525-03-SMT-TR_1_0"
 			(pin passive line
-				(at -2.54 5.08 270)
+				(at -2.54 -5.08 90)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "P"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
