@@ -4,8 +4,9 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.032 -4.4064 0)
+		(at -0.5 -4.4064 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "7bb8113f-61ed-441d-ae71-d5638ede8ee3")
 		(effects
 			(font
@@ -17,6 +18,7 @@
 	(property "Value" "RFSOLUTIONS_CON-SMA-EDGE-S"
 		(at 8.5664 4.4064 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "6d45b3bf-e7af-473c-b992-9f555298033c")
 		(effects
 			(font
@@ -303,28 +305,6 @@
 		(layer "F.Fab")
 		(uuid "1c793482-ce76-49a0-875b-56edd2745be6")
 	)
-	(fp_text user "Name"
-		(at -0.3744 -4.4064 0)
-		(layer "Dwgs.User")
-		(uuid "76f91bea-0704-4a34-969d-e5d6076e6ea3")
-		(effects
-			(font
-				(size 0.64 0.64)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "Value"
-		(at 0.032 4.4064 0)
-		(layer "Dwgs.User")
-		(uuid "d60df2ea-0e4a-4e56-ad2a-56110f0ff6a9")
-		(effects
-			(font
-				(size 0.64 0.64)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" smd rect
 		(at 0 0)
 		(size 3.5 1.5)
@@ -332,28 +312,28 @@
 		(solder_mask_margin 0)
 		(uuid "15cb5c2f-67d9-4e3a-b3fc-9cd0efb83ca7")
 	)
-	(pad "G1" smd rect
+	(pad "2" smd rect
 		(at 0 -2.7)
 		(size 3.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0)
 		(uuid "2bc07acb-041e-446f-a221-6c713086a39b")
 	)
-	(pad "G2" smd rect
-		(at 0 2.7)
-		(size 3.5 1.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0)
-		(uuid "f4ce52c1-7e7d-47a6-88c6-52b8d0227f6d")
-	)
-	(pad "G3" smd rect
+	(pad "2" smd rect
 		(at 0 -2.7)
 		(size 3.5 1.5)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(solder_mask_margin 0)
 		(uuid "b6a5c56d-6260-451e-a92e-b0ffbc8a93b6")
 	)
-	(pad "G4" smd rect
+	(pad "2" smd rect
+		(at 0 2.7)
+		(size 3.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "f4ce52c1-7e7d-47a6-88c6-52b8d0227f6d")
+	)
+	(pad "2" smd rect
 		(at 0 2.7)
 		(size 3.5 1.5)
 		(layers "B.Cu" "B.Mask" "B.Paste")
@@ -361,7 +341,7 @@
 		(uuid "d0d24429-81f7-4764-b5d0-ee5bd8974565")
 	)
 	(embedded_fonts no)
-	(model "D:/Github/kicad-library/3d_models/Connector_Coaxial_RFSOLUTIONS_CON-SMA-EDGE-S.step"
+	(model "${KIPRJMOD}/kicad-library/3d_models/Connector_Coaxial_RFSOLUTIONS_CON-SMA-EDGE-S.step"
 		(offset
 			(xyz 0 0 0)
 		)
