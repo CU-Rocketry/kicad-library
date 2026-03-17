@@ -286,7 +286,7 @@
 		(uuid "a6f4cdd5-8110-48b1-a70d-4fd1c760f004")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-library-sigmondkukla/3d_models/BUK9K25-40RAX.stp"
+	(model "${KIPRJMOD}/kicad-library/3d_models/BUK9K25-40RAX.stp"
 		(offset
 			(xyz 0 -0.7 0.23)
 		)
