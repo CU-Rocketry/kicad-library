@@ -351,9 +351,9 @@
 		(uuid "b6e93543-1f3d-43dc-8f29-03c9f936be48")
 	)
 	(embedded_fonts no)
-	(model "D:/Github/kicad-library/3d_models/Samtec_FTSH-107-01-X-DV-K-TR.step"
+	(model "${KIPRJMOD}/kicad-library/3d_models/Samtec_FTSH-107-01-X-DV-K-TR.step"
 		(offset
-			(xyz 0 0 0.5)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

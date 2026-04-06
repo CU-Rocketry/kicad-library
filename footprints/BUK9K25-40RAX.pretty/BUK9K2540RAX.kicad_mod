@@ -152,45 +152,16 @@
 		(layer "F.Paste")
 		(uuid "431d19d2-d7f7-49c8-a268-fc444e5f6e60")
 	)
-	(fp_line
-		(start -3.563 -4.45)
-		(end 3.563 -4.45)
+	(fp_rect
+		(start -3 -4)
+		(end 3 4)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "0bc23a2c-8712-4f4b-b685-9f2908503b11")
-	)
-	(fp_line
-		(start -3.563 4.601)
-		(end -3.563 -4.45)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "499b269b-79c1-40be-a49e-fcf9d04f9391")
-	)
-	(fp_line
-		(start 3.563 -4.45)
-		(end 3.563 4.601)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "3ff1afc6-5d32-444c-b243-4ca6161ac135")
-	)
-	(fp_line
-		(start 3.563 4.601)
-		(end -3.563 4.601)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "9339b399-d4a9-4b5c-b860-b8665506332e")
+		(uuid "f25a2560-1fa4-446d-9de3-c5d9eedce20f")
 	)
 	(fp_line
 		(start -2.563 -2.287)
@@ -315,7 +286,7 @@
 		(uuid "a6f4cdd5-8110-48b1-a70d-4fd1c760f004")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-library-sigmondkukla/3d_models/BUK9K25-40RAX.stp"
+	(model "${KIPRJMOD}/kicad-library/3d_models/BUK9K25-40RAX.stp"
 		(offset
 			(xyz 0 -0.7 0.23)
 		)

@@ -422,7 +422,7 @@
 		(uuid "cd62ed10-4958-42c9-b739-3c279cdadcd1")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-library-sigmondkukla/3d_models/MSD-4-A.STEP"
+	(model "${KIPRJMOD}/kicad-library/3d_models/MSD-4-A.STEP"
 		(offset
 			(xyz -7.5 -7.3 0)
 		)
