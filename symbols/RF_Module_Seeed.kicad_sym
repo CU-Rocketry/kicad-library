@@ -689,8 +689,8 @@
 		)
 		(symbol "Wio-S3_1_1"
 			(rectangle
-				(start -10.16 -2.54)
-				(end 10.16 -48.26)
+				(start -12.7 -2.54)
+				(end 12.7 -48.26)
 				(stroke
 					(width 0)
 					(type solid)
@@ -700,7 +700,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -27.94 180)
+				(at 15.24 -27.94 180)
 				(length 2.54)
 				(name "GPIO47"
 					(effects
@@ -718,7 +718,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -5.08 180)
+				(at 15.24 -5.08 180)
 				(length 2.54)
 				(name "GPIO38"
 					(effects
@@ -736,7 +736,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -7.62 180)
+				(at 15.24 -7.62 180)
 				(length 2.54)
 				(name "GPIO39"
 					(effects
@@ -754,7 +754,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -10.16 180)
+				(at 15.24 -10.16 180)
 				(length 2.54)
 				(name "GPIO40"
 					(effects
@@ -772,7 +772,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -12.7 180)
+				(at 15.24 -12.7 180)
 				(length 2.54)
 				(name "GPIO41"
 					(effects
@@ -790,7 +790,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -15.24 180)
+				(at 15.24 -15.24 180)
 				(length 2.54)
 				(name "GPIO42"
 					(effects
@@ -808,7 +808,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -17.78 180)
+				(at 15.24 -17.78 180)
 				(length 2.54)
 				(name "GPIO43"
 					(effects
@@ -827,7 +827,7 @@
 				(alternate "UART0_TX" output line)
 			)
 			(pin input line
-				(at 12.7 -20.32 180)
+				(at 15.24 -20.32 180)
 				(length 2.54)
 				(name "GPIO44"
 					(effects
@@ -846,7 +846,7 @@
 				(alternate "UART0_RX" input line)
 			)
 			(pin input line
-				(at 12.7 -22.86 180)
+				(at 15.24 -22.86 180)
 				(length 2.54)
 				(name "GPIO45"
 					(effects
@@ -864,7 +864,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -25.4 180)
+				(at 15.24 -25.4 180)
 				(length 2.54)
 				(name "GPIO46"
 					(effects
@@ -882,7 +882,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -10.16 0)
+				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "GPIO3"
 					(effects
@@ -900,7 +900,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -7.62 0)
+				(at -15.24 -7.62 0)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -918,7 +918,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "GPIO1"
 					(effects
@@ -936,7 +936,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -12.7 0)
+				(at -15.24 -12.7 0)
 				(length 2.54)
 				(name "BOOT"
 					(effects
@@ -954,7 +954,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -15.24 0)
+				(at -15.24 -15.24 0)
 				(length 2.54)
 				(name "RST"
 					(effects
@@ -1009,7 +1009,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -45.72 180)
+				(at 15.24 -35.56 180)
 				(length 2.54)
 				(name "ANT_2.4"
 					(effects
@@ -1121,7 +1121,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -22.86 0)
+				(at -15.24 -22.86 0)
 				(length 2.54)
 				(name "GPIO11"
 					(effects
@@ -1139,7 +1139,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -20.32 0)
+				(at -15.24 -20.32 0)
 				(length 2.54)
 				(name "GPIO10"
 					(effects
@@ -1157,7 +1157,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -25.4 0)
+				(at -15.24 -25.4 0)
 				(length 2.54)
 				(name "GPIO12"
 					(effects
@@ -1175,7 +1175,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -27.94 0)
+				(at -15.24 -27.94 0)
 				(length 2.54)
 				(name "GPIO13"
 					(effects
@@ -1193,7 +1193,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -30.48 0)
+				(at -15.24 -30.48 0)
 				(length 2.54)
 				(name "GPIO14"
 					(effects
@@ -1211,7 +1211,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -33.02 0)
+				(at -15.24 -33.02 0)
 				(length 2.54)
 				(name "GPIO15"
 					(effects
@@ -1229,7 +1229,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -35.56 0)
+				(at -15.24 -35.56 0)
 				(length 2.54)
 				(name "GPIO16"
 					(effects
@@ -1247,7 +1247,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -38.1 0)
+				(at -15.24 -38.1 0)
 				(length 2.54)
 				(name "GPIO17"
 					(effects
@@ -1265,7 +1265,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -40.64 0)
+				(at -15.24 -40.64 0)
 				(length 2.54)
 				(name "GPIO18"
 					(effects
@@ -1283,7 +1283,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -45.72 0)
+				(at -15.24 -45.72 0)
 				(length 2.54)
 				(name "GPIO19"
 					(effects
@@ -1302,7 +1302,7 @@
 				(alternate "USB_DM" bidirectional line)
 			)
 			(pin input line
-				(at -12.7 -43.18 0)
+				(at -15.24 -43.18 0)
 				(length 2.54)
 				(name "GPIO20"
 					(effects
@@ -1321,7 +1321,7 @@
 				(alternate "USB_DP" bidirectional line)
 			)
 			(pin input line
-				(at 12.7 -30.48 180)
+				(at 15.24 -30.48 180)
 				(length 2.54)
 				(name "GPIO48"
 					(effects
@@ -1358,7 +1358,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -38.1 180)
+				(at 15.24 -45.72 180)
 				(length 2.54)
 				(name "ANT_915"
 					(effects
