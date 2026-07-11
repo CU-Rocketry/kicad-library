@@ -1283,7 +1283,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -45.72 0)
+				(at -15.24 -43.18 0)
 				(length 2.54)
 				(name "GPIO19"
 					(effects
@@ -1302,7 +1302,7 @@
 				(alternate "USB_DM" bidirectional line)
 			)
 			(pin input line
-				(at -15.24 -43.18 0)
+				(at -15.24 -45.72 0)
 				(length 2.54)
 				(name "GPIO20"
 					(effects
