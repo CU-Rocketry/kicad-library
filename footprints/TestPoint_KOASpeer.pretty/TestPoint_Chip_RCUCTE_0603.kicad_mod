@@ -1,15 +1,15 @@
 (footprint "TestPoint_Chip_RCUCTE_0603"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC")
 	(tags "Test Point Chip 0603 (1.6mmx0.8mm) RCU RC")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "edb627f3-e30b-4183-b6ed-35b1205bcdd4")
+		(uuid "86bf7c3c-7a8d-46ee-b8c8-cf3d81ccde8a")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,8 @@
 		(at 0 -1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "df2ddf80-dad2-41d3-8d77-7e87035acfcc")
+		(hide yes)
+		(uuid "a3976075-562e-4464-bb88-285e2db8e3e0")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -34,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "92252331-4ee4-4bff-bfd4-8b8d78e00b6a")
+		(uuid "b46da1ee-05c3-4f4a-b2b9-caf89e33eaa3")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +48,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e0b1fa47-6a3d-4975-a16f-5f4c59e3242c")
+		(uuid "8e0ac8df-58c8-409c-89d3-f8a647e30e5c")
 		(effects
 			(font
 				(size 1 1)
@@ -56,6 +57,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -1.25 -0.75)
 		(end 1.25 0.75)
@@ -65,13 +67,25 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "beb988a1-05e9-4f18-b2b7-d14859b3de62")
+		(uuid "f61bdb15-9e0b-4f4d-9fbe-3fe04d16f4b1")
+	)
+	(fp_text user "${VALUE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1994c4c5-30c6-4ddd-9157-301915349cfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -2 0)
+		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "372671fb-908c-43bf-8089-8cdb78a87f36")
+		(uuid "a07fe5df-1113-4617-8e48-482aaba9f96d")
 		(effects
 			(font
 				(size 1 1)
@@ -85,7 +99,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "97112d82-11e7-4beb-a925-ce8844fdeb87")
+		(uuid "0067d184-a163-4901-9513-de3b0db3aa08")
 	)
 	(embedded_fonts no)
 	(embedded_files
