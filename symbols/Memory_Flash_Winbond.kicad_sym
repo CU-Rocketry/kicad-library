@@ -39,7 +39,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Datasheet" "https://www.winbond.com/resource-files/W25Q512JV%20DTR%20RevD%2006292020%20133.pdf"
 			(at 0 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
