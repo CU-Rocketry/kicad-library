@@ -222,4 +222,75 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "TPSM863257RDXR"
+		(extends "TPSM863253RDXR")
+		(property "Reference" "U"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPSM863253RDXR"
+			(at 0 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_DCDC_TI:Converter_DCDC_TI_TPSM863253RDXR"
+			(at 0 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm863253.pdf?ts=1707940480558&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPSM863253"
+			(at 1.27 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Non-Isolated PoL Module DC DC Converter 1 Output 3.3V 3A 3V - 17V Input"
+			(at 0 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "TPSM863253RDXR"
+			(at 0 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
